@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="saymek habtu">
+    <meta name="description" content="">
+    <meta name="keywords" content="html, css, web, web development, javascript">
+    <title>ProLink</title>
+    <link rel="icon" href="./assets/image/favicon.png?v=2"type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="./assets/style/home.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous">
+    <script src="assets/script/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">ProLink</div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Network</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Messaging</a></li>
+          <li><a href="#">Notifications</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="profile-card">
+          <img src="/assets/image/profile(1).jpg" alt="Profile Picture">
+          <h2>John Doe</h2>
+          <p>Software Engineer</p>
+          <p>New York, NY</p>
+          <button class="btn btn-primary">Add</button>
+          <div class="suggestion-actions">
+            
+          </div>
+          <p id="about-me">A programmer is a skilled professional who writes, 
+            tests, and maintains code to create software applications and 
+            systems.
+          </p>
+        </div>
+
+        <div class="feed-container">
+          <div class="post-form">
+            <img src="/assets/image/profile(1).jpg" alt="Profile Picture">
+            <input type="text" placeholder="What's on your mind?">
+            <button class="btn btn-primary">Post</button>
+          </div>
+
+          <div class="feed-items">
+            <div class="feed-item">
+              <div class="feed-header">
+                <img src="/assets/image/profile(1).jpg" alt="Connection 1">
+                <div class="feed-user-info">
+                  <h3>Jane Smith</h3>
+                  <p>Software Developer</p>
+                </div>
+              </div>
+              <div class="feed-content">
+                <p>
+                  Excited to share my latest project with the team! #coding 
+                  #webdev
+                </p>
+                <img id="post" src="/assets/image/code.jpg" alt="Public">
+                <div class="feed-actions">
+                  <i class="fa-regular fa-heart action"></i>
+                  <i class="fa-regular fa-comment action"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket share-action"></i>
+                </div>
+              </div>
+            </div>
+            <div class="feed-item">
+              <div class="feed-header">
+                <img src="/assets/image/profile(1).jpg" alt="Connection 2">
+                <div class="feed-user-info">
+                  <h3>Michael Johnson</h3>
+                  <p>Product Manager</p>
+                </div>
+              </div>
+              <div class="feed-content">
+                <p>
+                  Just landed a new client! Excited to start this project.
+                  #business #networking
+                </p>
+                <div class="feed-actions">
+                  <i class="fa-regular fa-heart action"></i>
+                  <i class="fa-regular fa-comment action"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket share-action"></i>
+                </div>
+              </div>
+            </div>
+            <div class="feed-item">
+              <div class="feed-header">
+                <img src="/assets/image/profile(1).jpg" alt="Connection 3">
+                <div class="feed-user-info">
+                  <h3>Sarah Lee</h3>
+                  <p>UI/UX Designer</p>
+                </div>
+              </div>
+              <div class="feed-content">
+                <p>
+                  Attended a great design workshop today. Learned a lot of new 
+                  techniques! #design #ux
+                </p>
+                <div class="feed-actions">
+                  <i class="fa-regular fa-heart action"></i>
+                  <i class="fa-regular fa-comment action"></i>
+                  <i class="fa-solid fa-arrow-up-from-bracket share-action"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="suggestions-container">
+            <h2>People You May Know</h2>
+            <div class="suggestions-grid" id="user-list"></div>
+          </div>
+        </div>
+        
+        
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-links">
+          <a href="#">About</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Help Center</a>
+          <a href="#">Privacy & Terms</a>
+          <a href="#">Ad Choices</a>
+        </div>
+        <p>&copy; 2023 LinkedIn Corporation. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
