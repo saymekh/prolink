@@ -9,10 +9,10 @@ The code you provided is for a web application that aims to replicate the core f
 
 The key features of the application include:
 
-    ![Circle](https://via.placeholder.com/10/000000/000000.png?text=●) User Authentication: The login process verifies the user's credentials against the stored data in localStorage, providing a secure way to access the platform.
-    ![Circle](https://via.placeholder.com/10/000000/000000.png?text=●) User Profiles: The user profile section displays the user's name, job title, location, and a brief "About Me" description.
+    - User Authentication: The login process verifies the user's credentials against the stored data in localStorage, providing a secure way to access the platform.
+    - User Profiles: The user profile section displays the user's name, job title, location, and a brief "About Me" description.
     Content Sharing: Users can share updates, thoughts, or achievements on the content feed, which are displayed to their connections.
-    ![Circle](https://via.placeholder.com/10/000000/000000.png?text=●) Connection Suggestions: The "People You May Know" section uses the Random User API to fetch and display suggested connections, including their profile pictures, full names, and cities.
+    - Connection Suggestions: The "People You May Know" section uses the Random User API to fetch and display suggested connections, including their profile pictures, full names, and cities.
     
 
 The code is structured in a modular way, with separate HTML, CSS, and JavaScript files. This separation of concerns makes the codebase more maintainable and easier to extend in the future.
